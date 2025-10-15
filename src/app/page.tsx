@@ -7,6 +7,7 @@ import FeatureCardTwo from '@/components/sections/feature/FeatureCardTwo';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
+import { Lightbulb, Shield, TrendingUp, Paintbrush, Sparkles } from 'lucide-react';
 
 const assetMap = [
   {"id":"heroImage","url":"https://images.pexels.com/photos/34239106/pexels-photo-34239106.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"modern office workspace - Photo by Jakub Zerdzicki"},
@@ -66,7 +67,7 @@ export default function Home() {
         <div className="mx-auto px-4 md:px-6 ">
           <FeatureCardTwo
             features={[
-              { title: "Data Analytics", description: "Gain insights with advanced analytics tools.", icon: TrendingUp },
+              { title: "Data Analytics", description: "Gain insights with advanced analytics tools.", icon: TrendingUp},
               { title: "Customization", description: "Personalize the platform to match your brand.", icon: Paintbrush }
             ]}
           />
