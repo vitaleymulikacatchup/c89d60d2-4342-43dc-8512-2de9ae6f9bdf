@@ -55,8 +55,8 @@ export default function Home() {
         <div className="mx-auto px-4 md:px-6 ">
           <SplitAbout
             bulletPoints={[
-              { title: "Innovative Design", description: "Our platform is designed to scale with your needs.", icon: "Lightbulb" },
-              { title: "Reliable Support", description: "24/7 customer support to ensure your success.", icon: "Shield" }
+              { title: "Innovative Design", description: "Our platform is designed to scale with your needs.", icon: Lightbulb },
+              { title: "Reliable Support", description: "24/7 customer support to ensure your success.", icon: Shield }
             ]}
             imageSrc={resolveImage("featureImage1")}
           />
@@ -66,8 +66,8 @@ export default function Home() {
         <div className="mx-auto px-4 md:px-6 ">
           <FeatureCardTwo
             features={[
-              { title: "Data Analytics", description: "Gain insights with advanced analytics tools.", icon: "TrendingUp" },
-              { title: "Customization", description: "Personalize the platform to match your brand.", icon: "Paintbrush" }
+              { title: "Data Analytics", description: "Gain insights with advanced analytics tools.", icon: TrendingUp },
+              { title: "Customization", description: "Personalize the platform to match your brand.", icon: Paintbrush }
             ]}
           />
         </div>
@@ -77,7 +77,7 @@ export default function Home() {
           <PricingCardThree
             plans={[
               { id: "basic", price: "$19/mo", name: "Basic Plan", buttons: [{ text: "Get started", href: "https://example.com" }, { text: "Contact us", href: "contact" }], features: ["1 User", "10 Projects", "Email Support"] },
-              { id: "pro", badge: "Most popular plan", badgeIcon: "Sparkles", price: "$49/mo", name: "Pro Plan", buttons: [{ text: "Get started", href: "https://example.com" }, { text: "Contact us", href: "contact" }], features: ["Unlimited Users", "Unlimited Projects", "Priority Support"] }
+              { id: "pro", badge: "Most popular plan", badgeIcon: Sparkles, price: "$49/mo", name: "Pro Plan", buttons: [{ text: "Get started", href: "https://example.com" }, { text: "Contact us", href: "contact" }], features: ["Unlimited Users", "Unlimited Projects", "Priority Support"] }
             ]}
           />
         </div>

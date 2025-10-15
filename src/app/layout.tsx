@@ -1,18 +1,7 @@
 import type { Metadata } from "next";
-import {
-  Inter_Tight,
-  Playfair_Display,
-  Roboto,
-  Open_Sans,
-  Lato,
-  Montserrat,
-  Poppins,
-  Raleway,
-  Ubuntu,
-  Nunito
-} from "next/font/google";
+import { Inter_Tight, Playfair_Display, Roboto, Open_Sans, Lato, Montserrat, Poppins, Raleway, Ubuntu, Nunito } from "next/font/google";
 import "./globals.css";
-import {PostHogWrapper} from "@/components/PostHogWrapper";
+import { PostHogWrapper } from "@/components/PostHogWrapper";
 import AuroraBackground from "@/components/background/AuroraBackground";
 
 const interTight = Inter_Tight({
