@@ -168,7 +168,7 @@
   --text-6xl: var(--text-6xl);
   --text-7xl: var(--text-7xl);
   --text-8xl: var(--text-8xl);
-  --text-9xl: var(--text-9xl);
+  --text-9xl: var(--text-9-xl);
 
   /* height */
   --height-4: var(--height-4);
@@ -177,10 +177,10 @@
   --height-7: var(--height-7);
   --height-8: var(--height-8);
   --height-9: var(--height-9);
+  --height-10: var(--height-10);
   --height-11: var(--height-11);
   --height-12: var(--height-12);
 
-  --height-10: var(--height-10);
   --height-30: var(--height-30);
   --height-90: var(--height-90);
   --height-100: var(--height-100);
